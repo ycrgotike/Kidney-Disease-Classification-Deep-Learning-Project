@@ -64,3 +64,9 @@ export MLFLOW_TRACKING_USERNAME=<your_dagshub_username>
 export MLFLOW_TRACKING_PASSWORD=<your_dagshub_access_token>
 
 ```
+
+### DVC cmd
+
+1.dvc init
+2.dvc repro
+3.dvc dag
