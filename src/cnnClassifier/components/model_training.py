@@ -5,6 +5,7 @@ import tensorflow as tf
 import time
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
+from cnnClassifier import logger
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -59,8 +60,9 @@ class Training:
             shuffle=True,
             **dataflow_kwargs
         )
-
     
+        logger.info(f"Class indices: {self.train_generator.class_indices}")
+        
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
