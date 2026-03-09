@@ -35,3 +35,32 @@ conda activate kidney
 ```bash
 pip install -r requirements.txt
 ```
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/ycrgotike/Kidney-Disease-Classification-Deep-Learning-Project.mlflow \
+MLFLOW_TRACKING_USERNAME=<your_dagshub_username> \
+MLFLOW_TRACKING_PASSWORD=<your_dagshub_access_token> \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/ycrgotike/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
+
+export MLFLOW_TRACKING_USERNAME=<your_dagshub_username> 
+
+export MLFLOW_TRACKING_PASSWORD=<your_dagshub_access_token>
+
+```

@@ -1,0 +1,22 @@
+artifact_path: /Users/yashwanthreddygotike/Documents/Projects/Kidney-Disease-Classification-Deep-Learning-Project/mlruns/0/models/m-7fd68ea2c5f748eb91c77437f7da78c6/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.11.14
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.15.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.9.0
+model_id: m-7fd68ea2c5f748eb91c77437f7da78c6
+model_size_bytes: 60415204
+model_uuid: m-7fd68ea2c5f748eb91c77437f7da78c6
+prompts: null
+run_id: d9a2b37a7e3746a088448b8456fc5e9f
+utc_time_created: '2026-03-09 20:35:13.488400'
