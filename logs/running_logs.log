@@ -1583,3 +1583,12 @@ x==========x]
 [2026-03-10 15:02:21,262: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2026-03-10 15:03:52,046: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.35:5000]
+[2026-03-10 15:03:52,046: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-10 15:04:00,772: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:00] "GET / HTTP/1.1" 200 -]
+[2026-03-10 15:04:00,954: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-03-10 15:04:22,409: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:22] "POST /predict HTTP/1.1" 200 -]
+[2026-03-10 15:04:29,931: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:29] "POST /predict HTTP/1.1" 200 -]
