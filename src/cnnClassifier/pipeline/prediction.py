@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 class PredictionPipeline:
 
     def __init__(self):
-        self.model = load_model("artifacts/training/model.h5")
+        self.model = load_model("model/model.h5")
 
     def predict(self, filename):
 
