@@ -1,6 +1,4 @@
 tensorflow==2.15.0
-# tensorflow-macos==2.15.0
-# tensorflow-metal==1.2.0
 pandas 
 dvc
 mlflow==3.9.0
@@ -18,7 +16,6 @@ scipy
 Flask
 Flask-Cors
 gdown
-tensorflow-metal
 dagshub
 gunicorn
 -e .
