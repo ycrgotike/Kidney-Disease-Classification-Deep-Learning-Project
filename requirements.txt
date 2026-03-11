@@ -18,4 +18,6 @@ Flask-Cors
 gdown
 dagshub
 gunicorn
+# tensorflow-macos==2.15.0
+# tensorflow-metal==1.2.0
 -e .
