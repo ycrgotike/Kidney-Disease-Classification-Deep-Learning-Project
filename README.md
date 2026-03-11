@@ -163,6 +163,21 @@ python app.py
 
 Access at `http://localhost:5000`
 
+
+## 🐳 Docker Deployment
+
+### Build Docker Image
+
+```bash
+docker build -t gycrgotike/kidney-app .
+```
+
+### Run Container Locally
+
+```bash
+docker run -d -p 5000:5000 gycrgotike/kidney-app:latest
+```
+
 # Deployment
 - This project can be deployed using:
 	- Render
