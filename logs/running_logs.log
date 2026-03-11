@@ -1592,3 +1592,16 @@ x==========x]
 [2026-03-10 15:04:00,954: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
 [2026-03-10 15:04:22,409: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:22] "POST /predict HTTP/1.1" 200 -]
 [2026-03-10 15:04:29,931: INFO: _internal: 127.0.0.1 - - [10/Mar/2026 15:04:29] "POST /predict HTTP/1.1" 200 -]
+[2026-03-11 15:33:32,395: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.35:5000]
+[2026-03-11 15:33:32,395: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-11 15:33:39,441: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:33:39] "GET / HTTP/1.1" 200 -]
+[2026-03-11 15:33:40,252: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:33:40] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -]
+[2026-03-11 15:33:40,322: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:33:40] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -]
+[2026-03-11 15:33:40,364: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:33:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-03-11 15:33:40,466: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:33:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-03-11 15:34:03,356: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:34:03] "POST /predict HTTP/1.1" 200 -]
+[2026-03-11 15:34:10,452: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:34:10] "POST /predict HTTP/1.1" 200 -]
+[2026-03-11 15:34:23,763: INFO: _internal: 127.0.0.1 - - [11/Mar/2026 15:34:23] "POST /predict HTTP/1.1" 200 -]
